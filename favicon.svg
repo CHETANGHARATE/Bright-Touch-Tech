@@ -1,4 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="8" fill="#FF7A00"/>
-  <path d="M8 24V8h6.6c3.64 0 5.72 1.85 5.72 4.76 0 1.85-.97 3.35-2.56 4.05L21 24h-3.7l-2.92-6.72H11.2V24H8zm3.2-9.12h3.28c1.6 0 2.52-.8 2.52-2.12s-.92-2.08-2.52-2.08H11.2v4.2zM23 8h3v16h-3z" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="32" fill="#FF7A00"/>
+
+  <!-- Sun rays -->
+  <line x1="32" y1="4"  x2="32" y2="10" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="32" y1="54" x2="32" y2="60" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="4"  y1="32" x2="10" y2="32" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="54" y1="32" x2="60" y2="32" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="10" y1="10" x2="15" y2="15" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="49" y1="49" x2="54" y2="54" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="54" y1="10" x2="49" y2="15" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="10" y1="54" x2="15" y2="49" stroke="white" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- T letter -->
+  <rect x="20" y="22" width="24" height="5" rx="2" fill="white"/>
+  <rect x="29" y="27" width="6" height="16" rx="2" fill="white"/>
 </svg>
