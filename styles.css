@@ -250,18 +250,17 @@ p  { color: var(--text-3); line-height:1.75; transition: color var(--t-theme) va
 }
 
 /* Logo */
-.logo { display:flex; align-items:center; gap:9px; flex-shrink:0; text-decoration:none; }
-.logo-img {
-  height: 40px;
-  width: auto;
-  display: block;
-  object-fit: contain;
+.logo { display:flex; align-items:center; gap:9px; flex-shrink:0; }
+.logo-icon { flex-shrink:0; }
+.logo-name {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  color: var(--text);
+  letter-spacing: -0.02em;
+  transition: color var(--t-theme) var(--ease);
 }
-/* Footer logo — white-ish tint since footer is dark navy */
-.logo-img--footer {
-  height: 44px;
-  filter: brightness(0) invert(1);
-}
+.logo-name strong { font-weight:800; color:var(--orange); }
 
 /* Nav links */
 .nav-links {
